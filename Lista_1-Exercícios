@@ -1,0 +1,44 @@
+1) Escreva um programa em linguagem C que calcule a distância entre 2 pontos que possuem coordenadas em relação a um eixo horizontal e vertical.
+Use a biblioteca "math.h" e a formula abaixo:
+
+d = sqrt(pow((x2-x1),2)+pow((y2-y1),2))
+
+2) Escreva um programa em linguagem C para ler os valores de a, b, c, d, e, f e resolver o sistema de equações abaixo:
+ax + by = c
+dx + ey = f
+
+Solução:
+x = (ce - bf) / (ae - bd)
+y = (af - cd) / (ae - bd)
+
+3) Escreva um programa em linguagem C para ler um número de até 4 dígitos e mostre a sua decomposição em milhar, centena, dezena e unidade.
+Ex: 1280
+milhar = 1; centena =2; dezena = 8; unidade = 0.
+
+4) Fazer um programa para receber um número inteiro de segundos do usuário e mostrar a quantidade correspondente em horas, minutos e segundos.
+
+5) Construa um programa para ler a nota de 3 provas, calcular a média e escrever a mensagem "aprovado" se a média das notas for maior ou igual a 6,
+caso contrário deverá escrever "reprovado".
+
+6) Construa um programa para ler a média final de uma disciplina, o total de aulas dadas e o número de faltas do aluno. Se a média final for maior
+ou igual a 6 e o número de faltas não exceder 25% do número de aulas dadas, a mensagem "aprovado" deverá ser exibida na tela, caso contrário,
+a mensagem "reprovado" deverá ser exibida.
+
+7) Construa um programa em Linguagem C para calcular o peso ideal de uma pessoa após o programa receber a letra h, informando que é homem, ou m,
+informando que é mulher, e também recebendo a altura da pessoa. A fórmula para cálculo do peso ideal são as seguintes:
+a) para homens: peso_ideal = 72,7 x altura - 58
+b) para mulheres: peso_ideal = 62,1 x altura - 44,7
+
+8) Uma fábrica de cabos produz cabos UTP (par trançado) para redes lógicas de voz e dados que são embalados em caixas com 302 metros lineares de cabo,
+cada caixa. A produção na fábrica é de 0,75 metros lineares de cabo por segundo. Elabore um programa em linguagem C de forma que quando informado
+um intervalo de tempo em minutos, este informe quantos metros lineares de cabo foram produzidos, a quantidade de caixas que isso representa e a
+sobra que não foi alocada em caixas por não completar o comprimento mínimo de 302 metros.
+
+9) Escreva um programa em linguagem C para converter milhas em km e vice-versa sabendo que 1 milha = 1,609344 km.
+
+10) O departamento que controla o índice de poluição do meio ambiente mantém 3 grupos de indústrias que são altamente
+poluentes do meio ambiente. O índice de poluição aceitável varia de 0,05 até 0,25. Se o índice sobe para 0,3 as
+indústrias do primeiro grupo são intimadas a suspenderem suas atividades, se o índice cresce para 0,4 as do primeiro
+e segundo grupos são intimadas a suspenderem suas atividades e se o índice atingir 0,5 todos os três grupos devem ser
+notificados a paralisarem suas atividades. Escrever um programa que leia o índice de poluição medido e caso necessário
+mostre na tela quais grupos de industria devem paralisar suas atividades.
