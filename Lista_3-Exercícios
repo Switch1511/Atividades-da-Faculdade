@@ -1,0 +1,61 @@
+1 - Construa um programa que leia um vetor de 20 números e o divida em outros outros dois vetores, um apenas com os números pares e outro apenas com os números ímpares. O programa deve mostrar na tela os 20 números digitados e os respectivos vetores pares e ímpares.
+
+2 - Elabore um programa em linguagem C que leia uma string e informe quantas vogais e quantas consoantes há nesta string.
+
+3 - Elabore um programa em linguagem C para ler uma palavra ou uma frase e escrevê-la de trás para frente.
+
+4 - Elabore um programa em linguagem C para ler uma palavra ou uma frase e substituir todas as vogais do texto por uma vogal específica informada pelo usuário.
+
+5 - Elabore um programa em linguagem C que leia o número de linhas e colunas de uma matriz, leia a seguir os elementos desta matriz e mostre a sua transposta.
+
+6 - Incremente o primeiro exercício desta lista de forma que, em vez de montar apenas dois vetores, um de números pares e um de números ímpares, o programa divida os números pares e os números ímpares em vetores de máximo 5 elementos cada um. Portanto, haverão no máximo 4 vetores pares ou 4 vetores ímpares (4 * 5 = 20).
+
+7 - Um sistema de meterologia utiliza 5 postos de coleta de índices pluviométricos. Cada posto faz 3 leituras diárias: uma pela manhã, outra à tarde e a última à noite. Os dados são dispostos em uma tabela (ou uma matriz) conforme abaixo indicado. Construa um programa em linguagem C que permita entrar com dados de precipitação armazenando-os em uma matriz e obter qual foi a precipitação média em cada posto, a precipitação média do dia e em que posto aconteceu a maior precipitação e em qual período (manhã, tarde ou noite). Os números da tabela abaixo são apenas um exemplo, pois o programa deve ser capaz de fornecer as informações solicitadas quaisquer que sejam os dados.
+
+ 
+
+       posto 1   posto 2   posto 3   posto 4   posto 5
+
+manhã  33        8         56        3         5
+
+tarde  12        28        43        35        67
+
+noite  5         16        27        0         3
+
+
+8 - Escreva um programa em linguagem C para ler uma palavra e reescrevê-la colocando um sublinhados na metade da palavra (tamanho da palavra / 2), conforme o exemplo:
+
+UNIVERSIDADE
+
+UNIVER _ _ _ _ _ _
+
+O programa deve dizer quantas letras tem a palavra original e pedir para o usuário dizer qual é a palavra. Se o usuário acertar, o programa deve escrever "Parabéns, você acertou!!!”, caso contrário ele deve dizer para o usuário tentar novamente e repetir o processo.
+
+9 - Escreva um programa em linguagem C que tenha uma função para inverter qualquer vetor de números inteiros (ou seja, o último elemento será o primeiro e o primeiro será o último e assim sucessivamente com cada elemento na ordem do vetor).
+
+10 - Escreva um programa em linguagem C para gerar cartelas de bingo e exibi-las. O programa deverá ler o número de cartelas que deseja-se gerar, onde os números em cada cartela serão sorteados dentro dos limites estabelecidos conforme as instruções a seguir:
+a) A primeira linha de cada cartela será um cabeçalho com as letras B I N G O separadas por 7 espaços em branco gerada por uma função chamada cabecalho;
+b) Cada cartela conterá 24 números na forma de uma matriz 5 x 5, sendo que a posição central da matriz não conterá valor mas sim um * nesta posição;
+c) Os números sorteados em cada coluna deverão obedecer o seguinte critério:
+    Coluna B: números de 1 a 15 apenas;
+    Coluna I: números de 16 a 30 apenas;
+    Coluna N: números de 31 a 45 apenas;
+    Coluna G: números de 46 a 60 apenas;
+    Coluna O: números de 61 a 75 apenas;
+d) Em uma mesma coluna de cada cartela não podem ocorrer números repetidos;
+e) As cartelas devem ser impressas de forma alinhada conforme o exemplo:
+
+B	  I	  N	  G	  O
+6	  19	32	48	61
+11	20	37	58	66
+12	27	*	  47	70
+2	  18	36	57	69
+1	  26	31	53	72
+
+
+B	  I	  N	  G	  O
+12	21	34	57	64
+2	  16	31	50	65
+7	  18	*	  60	66
+1	  24	40	59	62
+11	27	33	58	74
